@@ -1,0 +1,11 @@
+--- /Users/mussadiqali/Downloads/index.tsx	2024-12-15 07:39:12
++++ node_modules/react-native-element-dropdown/src/components/Dropdown/index.tsx	2024-12-15 07:42:40
+@@ -646,7 +646,7 @@
+             return bottom < keyboardHeight + height;
+           }
+ 
+-          return bottom < (search ? 150 : 100);
++          return bottom < (search ? 300 : 250);
+         };
+ 
+         if (width && top && bottom) {

@@ -1,0 +1,46 @@
+--- /Users/mussadiqali/Downloads/index.tsx	2025-01-08 12:08:01
++++ node_modules/react-native-element-dropdown/src/components/Dropdown/index.tsx	2025-01-08 12:15:29
+@@ -30,6 +30,7 @@
+   View,
+   ViewStyle,
+   StatusBar,
++  Platform,
+ } from 'react-native';
+ import { useDetectDevice } from '../../toolkits';
+ import { useDeviceOrientation } from '../../useDeviceOrientation';
+@@ -110,6 +111,9 @@
+     const [searchText, setSearchText] = useState('');
+ 
+     const { width: W, height: H } = Dimensions.get('window');
++    const sHight = (val: number) => {
++      return (val / 100) * H;
++    };
+     const styleContainerVertical: ViewStyle = useMemo(() => {
+       return {
+         backgroundColor: 'rgba(0,0,0,0.1)',
+@@ -206,7 +210,7 @@
+           }
+ 
+           const top = isFull ? 20 : height + pageY + 2;
+-          const bottom = H - top + height;
++          const bottom = H - top + height-10;
+           const left = I18nManager.isRTL ? W - width - pageX : pageX;
+ 
+           setPosition({
+@@ -693,7 +697,7 @@
+                     style={StyleSheet.flatten([
+                       styles.flex1,
+                       !isTopPosition
+-                        ? { paddingTop: extendHeight }
++                        ? { paddingTop: extendHeight, marginBottom: Platform.OS=='ios'&&!isTablet? sHight(11):!isTablet?  sHight(5):0 }
+                         : {
+                             justifyContent: 'flex-end',
+                             paddingBottom: extendHeight,
+@@ -707,6 +711,7 @@
+                         isFull ? styleHorizontal : styleVertical,
+                         {
+                           width,
++                         
+                         },
+                         containerStyle,
+                       ])}

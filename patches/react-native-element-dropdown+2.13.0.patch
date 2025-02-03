@@ -1,0 +1,10 @@
+--- /Users/mussadiqali/Downloads/styles.ts	2024-12-10 23:06:29
++++ node_modules/react-native-element-dropdown/src/components/Dropdown/styles.ts	2024-12-10 23:08:56
+@@ -38,7 +38,6 @@
+     writingDirection: I18nManager.isRTL ? 'rtl' : 'ltr',
+   },
+   item: {
+-    padding: 17,
+     flexDirection: I18nManager.isRTL ? 'row-reverse' : 'row',
+     justifyContent: 'space-between',
+     alignItems: 'center',

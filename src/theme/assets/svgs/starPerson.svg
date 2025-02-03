@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.184" height="15.184" viewBox="0 0 15.184 15.184">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="path621" d="M0-682.665H15.184v15.184H0Z" transform="translate(0 682.665)"/>
+    </clipPath>
+  </defs>
+  <g id="celebrity" transform="translate(-133 -3.002)">
+    <g id="g615" transform="translate(133 3.002)">
+      <g id="g617">
+        <g id="g619" clip-path="url(#clip-path)">
+          <g id="g625" transform="translate(2.076 6.346)">
+            <path id="path627" d="M-13.037,0a.3.3,0,0,1,.3.3.3.3,0,0,1-.3.3.3.3,0,0,1-.3-.3.3.3,0,0,1,.3-.3" transform="translate(13.333 0)"/>
+          </g>
+          <g id="g629" transform="translate(0.297 0.777)">
+            <path id="path631" d="M-308.1-515.163l-3.487,1.834a.593.593,0,0,1-.861-.625l.666-3.884a.593.593,0,0,0-.171-.525l-2.976-2.751a.593.593,0,0,1,.329-1.012l4.053-.566a.593.593,0,0,0,.447-.324l1.743-3.534a.593.593,0,0,1,1.064,0l1.744,3.534a.592.592,0,0,0,.447.324l4.075.566a.593.593,0,0,1,.329,1.012l-3,2.751a.592.592,0,0,0-.171.525l.666,3.885a.593.593,0,0,1-.861.625l-3.488-1.834A.592.592,0,0,0-308.1-515.163Z" transform="translate(315.108 526.882)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+          <g id="g633" transform="translate(3.161 7.528)">
+            <path id="path635" d="M-49.214-40.336l-1.119-.918" transform="translate(50.333 41.253)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+          <g id="g637" transform="translate(6.406 4.863)">
+            <path id="path639" d="M-104.294-52.147a1.186,1.186,0,0,1-1.186,1.186,1.186,1.186,0,0,1-1.186-1.186,1.186,1.186,0,0,1,1.186-1.186A1.186,1.186,0,0,1-104.294-52.147Z" transform="translate(106.666 53.333)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+          <g id="g641" transform="translate(5.219 7.829)">
+            <path id="path643" d="M-208.588-130.367h-4.745v-.593a2.373,2.373,0,0,1,2.372-2.372,2.366,2.366,0,0,1,1.678.695,2.366,2.366,0,0,1,.695,1.678Z" transform="translate(213.333 133.333)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
